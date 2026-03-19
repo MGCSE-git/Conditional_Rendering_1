@@ -6,9 +6,7 @@ function TeacherDashboard({ user }) {
       <h2>Teacher Dashboard</h2>
       <p>Welcome, {user.name}. Create quizzes and track class progress.</p>
       <button className={styles.btn}>Create Quiz</button>
-      <button className={styles.btn}>
-        View Submissions
-      </button>
+      <button className={styles.btn}>View Submissions</button>
     </div>
   );
 }

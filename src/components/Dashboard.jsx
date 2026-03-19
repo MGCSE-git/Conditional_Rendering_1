@@ -24,26 +24,26 @@ export default function Dashboard() {
       <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 16 }}>
         <button
           style={buttonStyle}
-          onClick={() => setUser({ name: "Geetha", role: "student" })}
+          onClick={() => setUser({ name: "Lalitha", role: "student" })}
         >
           Login as Student
         </button>
 
         <button
           style={buttonStyle}
-          onClick={() => setUser({ name: "Geetha", role: "teacher" })}
+          onClick={() => setUser({ name: "Geetha", role: "faculty" })}
         >
-          Login as Teacher
+          Login as Faculty
         </button>
 
         <button
           style={buttonStyle}
-          onClick={() => setUser({ name: "Geetha", role: "admin" })}
+          onClick={() => setUser({ name: "Prakash", role: "admin" })}
         >
           Login as Admin
         </button>
 
-        <button style={buttonStyle} onClick={() => setUser({ name: "Geetha", role: "guest" })}>
+        <button style={buttonStyle} onClick={() => setUser({ name: "Rahul", role: "guest" })}>
           Login as Guest (invalid role)
         </button>
 

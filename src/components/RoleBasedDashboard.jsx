@@ -12,7 +12,7 @@ function RoleBasedDashboard({ user }) {
   switch (user.role) {
     case "student":
       return <StudentDashboard user={user} />;
-    case "teacher":
+    case "faculty":
       return <TeacherDashboard user={user} />;
     case "admin":
       return <AdminDashboard user={user} />;
